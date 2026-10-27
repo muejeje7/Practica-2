@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "main", "develop" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "main"]
   schedule:
     # Se ejecuta automáticamente todos los domingos a las 00:00 UTC
     - cron: '0 0 * * 0'
